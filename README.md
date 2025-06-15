@@ -1,62 +1,74 @@
-Brief Testing Guide
-Quick Functionality Test (5 minutes)
-🔧 Basic Operations
-Add a task:
-Type "Test task" → Select category → Click "Add Task"
+# Brief Testing Guide
 
-Complete task:
-Click checkbox next to task
+---
 
-Delete task:
-Click trash icon → Confirm deletion
+## Quick Functionality Test (5 minutes)
 
- Core Features
-Search:
-Type in search bar to filter tasks
+---
 
-Filter:
-Click All / Pending / Completed buttons
+### Basic Operations
 
-Sort:
-Use dropdown to sort by:
+- **Add a task:**  
+  Type "Test task" → Select category → Click **Add Task**
 
-Date
+- **Complete task:**  
+  Click checkbox next to task
 
-Priority
+- **Delete task:**  
+  Click trash icon → Confirm deletion
 
-Alphabetical
+---
 
-Dark Mode:
-Click moon/sun icon to toggle theme
+### Core Features
 
-⚠ Validation Tests
-Try adding task with < 3 characters (should show error)
+- **Search:**  
+  Type in search bar to filter tasks
 
-Try adding task with > 100 characters (should show error)
+- **Filter:**  
+  Click **All / Pending / Completed** buttons
 
-Add task with exactly 3-100 characters (should work)
+- **Sort:**  
+  Use dropdown to sort by:
+  - Date
+  - Priority
+  - Alphabetical
 
- Data Persistence
-Add several tasks
+- **Dark Mode:**  
+  Click moon/sun icon to toggle theme
 
-Refresh page (tasks should remain)
+---
 
-Open new tab with same URL (tasks should sync)
+### Validation Tests
 
- Mobile Test
-Open browser dev tools → Toggle device view
+- Try adding task with **less than 3 characters** (should show error)
+- Try adding task with **more than 100 characters** (should show error)
+- Add task with **exactly 3-100 characters** (should work)
 
-Verify all features work on mobile layout
+---
 
- Expected Results
-All tasks persist after page refresh
+### Data Persistence
 
-Search filters tasks instantly
+- Add several tasks
+- Refresh page (tasks should remain)
+- Open new tab with same URL (tasks should sync)
 
-Productivity score updates when completing tasks
+---
 
-Dark mode saves preference
+### Mobile Test
 
-Mobile layout is fully functional
+- Open browser dev tools → Toggle device view
+- Verify all features work on mobile layout
 
- Test Duration: ~5 minutes for full feature verification
+---
+
+### Expected Results
+
+- All tasks persist after page refresh
+- Search filters tasks instantly
+- Productivity score updates when completing tasks
+- Dark mode saves preference
+- Mobile layout is fully functional
+
+---
+
+**Test Duration:** ~5 minutes for full feature verification
