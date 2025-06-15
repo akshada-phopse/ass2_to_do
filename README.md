@@ -1,12 +1,62 @@
-# React + Vite
+Brief Testing Guide
+Quick Functionality Test (5 minutes)
+🔧 Basic Operations
+Add a task:
+Type "Test task" → Select category → Click "Add Task"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Complete task:
+Click checkbox next to task
 
-Currently, two official plugins are available:
+Delete task:
+Click trash icon → Confirm deletion
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ Core Features
+Search:
+Type in search bar to filter tasks
 
-## Expanding the ESLint configuration
+Filter:
+Click All / Pending / Completed buttons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Sort:
+Use dropdown to sort by:
+
+Date
+
+Priority
+
+Alphabetical
+
+Dark Mode:
+Click moon/sun icon to toggle theme
+
+⚠ Validation Tests
+Try adding task with < 3 characters (should show error)
+
+Try adding task with > 100 characters (should show error)
+
+Add task with exactly 3-100 characters (should work)
+
+ Data Persistence
+Add several tasks
+
+Refresh page (tasks should remain)
+
+Open new tab with same URL (tasks should sync)
+
+ Mobile Test
+Open browser dev tools → Toggle device view
+
+Verify all features work on mobile layout
+
+ Expected Results
+All tasks persist after page refresh
+
+Search filters tasks instantly
+
+Productivity score updates when completing tasks
+
+Dark mode saves preference
+
+Mobile layout is fully functional
+
+ Test Duration: ~5 minutes for full feature verification
