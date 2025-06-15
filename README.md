@@ -1,7 +1,11 @@
 # Brief Testing Guide
 
 ---
+## Live Demo
 
+[Click here to visit the app](https://ass2-to-do.vercel.app/)
+
+---
 ## Quick Functionality Test (5 minutes)
 
 ---
