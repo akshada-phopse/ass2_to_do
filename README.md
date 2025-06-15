@@ -15,7 +15,7 @@
   Click checkbox next to task
 
 - **Delete task:**  
-  Click trash icon → Confirm deletion
+  Click delete button → Confirm deletion
 
 ---
 
